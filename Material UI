@@ -1,0 +1,11 @@
+//how to install material ui
+
+  https://material-ui.com/
+
+//install icons
+
+  npm install @material-ui/icons
+
+//install core
+
+  npm install @material-ui/core

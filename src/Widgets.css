@@ -1,0 +1,30 @@
+.widgets {
+  align-items: center;
+  padding: 10px;
+  /* cursor: pointer; */
+}
+.widgets:hover {
+  /* background-color: lightgray;
+  border-radius: 10px; */
+}
+div.list {
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.ad {
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+.ad > h4 {
+  font-size: 18px;
+}
+.contact > h4 {
+  font-size: 18px;
+}
+
+.contact__icon > .MuiSvgIcon-root {
+  margin: 0 5px;
+  cursor: pointer;
+}

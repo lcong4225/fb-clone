@@ -1,0 +1,30 @@
+.friendList {
+  /* margin-top: 8px; */
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+}
+.friendList:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.friendList > p {
+  padding-left: 15px;
+}
+
+.friendList > .MuiAvatar-img {
+}
+.circle__dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 9px;
+  left: 37px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  border: 1.5px solid black;
+}

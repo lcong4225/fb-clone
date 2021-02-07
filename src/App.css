@@ -1,0 +1,126 @@
+.app {
+  /* height: 100vh; */
+  background: url('./—Pngtree—color\ creative\ ink\ flower_916239.jpg') center
+    center/cover no-repeat;
+}
+.app__body {
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: auto;
+  position: relative;
+}
+
+.sidebars {
+  /* display: block; */
+  position: fixed;
+  width: 400px;
+  /* background-color: red; */
+  left: 5px;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.feeds {
+  /* background-color: green; */
+  max-width: 1020px;
+  padding-right: 4px;
+  z-index: 10;
+  padding-right: 400px;
+  padding-left: 300px;
+}
+
+.widgetss {
+  display: inline-block;
+
+  /*  overflow: scroll;
+  max-height: 1000px; */
+  /* background-color: red; */
+  width: 400px;
+  position: fixed;
+  scroll-behavior: auto;
+  scrollbar-width: thin;
+  padding-left: -300px;
+  right: 0;
+  z-index: 10;
+}
+.widgetss:hover {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+
+  max-height: 1080px;
+}
+
+@media screen and (max-width: 1484px) {
+  .sidebars {
+    width: 300px;
+  }
+  .feeds {
+    padding-right: 200px;
+  }
+  .widgetss {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .sidebars {
+    width: 200px;
+  }
+  .feeds {
+    padding-right: 300px;
+  }
+  .widgetss {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebars {
+    width: 250px;
+  }
+  .feeds {
+    padding-right: 50px;
+  }
+  .widgetss {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .sidebars {
+    display: none;
+  }
+  .feeds {
+    padding-right: 300px;
+  }
+  .widgetss {
+    display: none;
+  }
+}
+@media screen and (max-width: 720px) {
+  .sidebars {
+    display: none;
+  }
+  .feeds {
+    padding-right: 300px;
+    width: 700px;
+  }
+  .widgetss {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .sidebars {
+    display: none;
+  }
+  .feeds {
+    padding-right: 300px;
+    width: 700px;
+  }
+  .widgetss {
+    display: none;
+  }
+}

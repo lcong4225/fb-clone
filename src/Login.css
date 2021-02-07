@@ -1,0 +1,30 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.login > button {
+  width: 300px;
+  background-color: red;
+  color: #eff2f5;
+  font-weight: 800;
+}
+.login > button:hover {
+  background-color: #fff;
+  color: red;
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 150px;
+}
+
+.login .login__logo .facebook {
+  width: 150px;
+  /* margin-bottom: 800px; */
+}
+.login > div {
+  display: flex;
+  flex-direction: column;
+}

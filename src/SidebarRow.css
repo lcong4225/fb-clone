@@ -1,0 +1,30 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebarRow:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.sidebarRow > h4 {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.sidebarRow > .MuiSvgIcon-root {
+  font-size: xx-large;
+  padding: 4px;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 57.71%
+    ),
+    linear-gradient(127deg, rgba(255, 196, 0, 0.8), rgba(255, 0, 106, 0) 57.71%),
+    linear-gradient(336deg, rgba(255, 251, 0, 0.8), rgba(255, 174, 0, 0) 57.71%);
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+}
